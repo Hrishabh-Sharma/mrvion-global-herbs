@@ -1,0 +1,2 @@
+const nav=document.querySelector('.nav');window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>30));
+const menu=document.querySelector('.menu');menu.addEventListener('click',()=>{document.querySelector('.nav nav').style.cssText='display:flex;position:fixed;inset:72px 0 auto;background:#090b0a;color:#f5f0e6;flex-direction:column;padding:35px 7vw;gap:24px';document.querySelector('.nav-cta').style.display='block';});
